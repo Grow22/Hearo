@@ -8,7 +8,7 @@ export default function AlertCard({ time, location, sound, type }) {
   return (
     <Container isUrgent={isUrgent}>
       <IconWrapper isUrgent={isUrgent}>
-        <Icon src={isUrgent ? UrgentImg : GeneralImg}></Icon>
+        g<Icon src={isUrgent ? UrgentImg : GeneralImg}></Icon>
       </IconWrapper>
       <TextWrapper>
         <InfoText>{sound} 감지</InfoText>
